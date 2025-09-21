@@ -34,23 +34,28 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
         Text(
-        text = "Hello Feature 2 added",
-        modifier = modifier
-    )
+            text = "Hello $name!",
+            modifier = modifier
+        )
         Text(
-        text = "First pull request",
-        modifier = modifier
-    )
-         Text(
-        text = "Dev direct change1",
-        modifier = modifier
-    )
-}
+            text = "Hello Feature 2 added",
+            modifier = modifier
+        )
+        Text(
+            text = "First pull request",
+            modifier = modifier
+        )
+        Text(
+            text = "Dev direct change1",
+            modifier = modifier
+        )
+
+        Text(
+            text = "Feature 5",
+            modifier = modifier
+        )
+    }
 }
 
 @Preview(showBackground = true)
