@@ -46,6 +46,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "First pull request",
         modifier = modifier
     )
+         Text(
+        text = "Dev direct change1",
+        modifier = modifier
+    )
 }
 }
 
